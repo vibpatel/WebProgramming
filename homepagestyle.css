@@ -1,0 +1,104 @@
+body{
+		background-image: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)), url("shark.png");
+		background-size: 80px 60px;
+		font-family: sans-serif;
+}
+
+tr:nth-child(even){
+	background-color: #FFDEAD;
+}
+a{
+	color:#43CD80;
+}
+
+label{
+	font-weight:bold;
+}
+
+a:hover { 
+    background-color: yellow;
+    color:#FFDEAD;
+}
+
+.pic{
+	height:250px;
+	width:250px;
+	 display: block;
+    margin: 0 auto;
+}
+
+.caption{
+	text-align: center;
+}
+
+#table{
+	margin-top: 20px;
+	background-color:#ffffff;
+}
+span{
+	color:red;
+	font-weight:bold;
+}
+
+.heading{
+	text-align: center;
+}
+
+.assignments{
+	text-align: left;
+	font-weight:bold;
+}
+
+.projects{
+	text-align:right;
+	font-weight:bold;
+}
+
+#columns{
+	margin-top:20px;
+	text-align:center;
+	width:100%;	
+}
+
+#hobbies{
+	float:right;
+	width:25%;
+	background-color:#90EE90;
+	height:250px;
+	
+}
+
+
+
+#music{
+	float:right;
+	width:50%;
+	background-color: #EEDC82;
+	height:250px;
+	
+}
+
+
+#nestedlist{
+	float:right;
+	width:25%;
+	background-color:#90EE90;
+	height:250px;
+	margin-bottom: 30px;
+
+}
+
+#externallinks{
+	margin-top:30px;
+	text-align:center;
+}
+
+#quote{
+	text-align:center;
+	color: #2F4F4F;
+}
+
+.project{
+	text-align:right;
+}
+
